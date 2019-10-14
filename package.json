@@ -1,0 +1,33 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "node",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHMFighting/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHMFighting/anydoor/issues"
+  },
+  "homepage": "https://github.com/LHMFighting/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
