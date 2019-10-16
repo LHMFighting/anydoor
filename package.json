@@ -1,8 +1,11 @@
 {
   "name": "anydoor",
-  "version": "1.0.0",
-  "description": "node",
-  "main": ".eslintrc.js",
+  "version": "0.1.0",
+  "description": "tiny nodejs web server",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint --fix .",
@@ -29,6 +32,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "handlebars": "^4.4.3"
+    "handlebars": "^4.4.3",
+    "yargs": "^14.2.0"
   }
 }
